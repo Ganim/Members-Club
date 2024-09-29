@@ -10,6 +10,7 @@ O protótipo do projeto segue o arquivo FIGMA criado pela Product Designer Mille
 pelo MBA Fullstack da Rocketseat. 
 
 O arquivo figma pode ser visualizado através do link: 
+
 [![Figma File](https://dabuttonfactory.com/button.png?t=OPEN+FIGMA+FILE&f=Open+Sans-Bold&ts=12&tc=fff&hp=16&vp=10&c=8&bgt=unicolored&bgc=351c75)](https://www.figma.com/design/MqbBfqsKx6kIPfwAaBeAee/Cart%C3%A3o-fidelidade-(Members-Club)?node-id=0-1&node-type=canvas&t=KeqLiWzJWYx2rfpE-0)
 
 ## Tecnologias Usadas
@@ -32,4 +33,12 @@ O arquivo figma pode ser visualizado através do link:
   ```bash
   npm run server
   ```
+5. Execute o projeto (porta 3000):
+  ```bash
+  npm run dev
+  ```
+6. Extra: Criar a 'dist' do projeto:
+  ```bash
+  npm run build
+  ``
 

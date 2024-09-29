@@ -40,5 +40,5 @@ O arquivo figma pode ser visualizado através do link:
 6. Extra: Criar a 'dist' do projeto:
   ```bash
   npm run build
-  ``
+  ```
 

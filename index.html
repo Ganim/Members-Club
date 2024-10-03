@@ -4,8 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css"
+    />
 </head>
 <body>
-  asd
+  <div class="container">
+
+    <div class="header">
+      <img src="./src/assets/Logo.svg" alt="Logo" class="logo" />
+
+      <form class="form">
+        <div class="input">
+          <input type="text" id="search" name="search" placeholder="ID do Cartão" required/>
+          <button type="submit">
+            <i class="ph ph-arrow-elbow-down-left"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <aside class="schedule">
+      <header>
+        <h1>Agendamentos</h1>
+        <p>Visualize os agendamentos de acordo com o dia selecionado</p>
+      </header>
+
+      <section class="schedule-period">
+        <header>
+          <img src="./src/assets/morning.svg" alt="Manhã" />
+          <strong>Manhã</strong>
+          <span>09h-12h</span>
+        </header>
+        <ul id="period-morning" class="period">
+          <!-- Exemplo  -->
+          <li>
+            <strong>11:00</strong>
+            <span>Rodrigo Gonçalves</span>
+            <img
+              src="./src/assets/cancel.svg"
+              alt="Cancelar"
+              class="cancel-icon"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="schedule-period">
+        <header>
+          <img src="./src/assets/afternoon.svg" alt="Tarde" />
+          <strong>Tarde</strong>
+          <span>13h-18h</span>
+        </header>
+        <ul id="period-afternoon" class="period">
+          <!-- Exemplo -->
+          <li>
+            <strong>14:00</strong>
+            <span>Rodrigo Gonçalves</span>
+            <img
+              src="./src/assets/cancel.svg"
+              alt="Cancelar"
+              class="cancel-icon"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="schedule-period">
+        <header>
+          <img src="./src/assets/night.svg" alt="noite" />
+          <strong>noite</strong>
+          <span>19h-21h</span>
+        </header>
+        <ul id="period-night" class="period">
+          <!-- Exemplo -->
+          <li>
+            <strong>19:00</strong>
+            <span>Rodrigo Gonçalves</span>
+            <img
+              src="./src/assets/cancel.svg"
+              alt="Cancelar"
+              class="cancel-icon"
+            />
+          </li>
+        </ul>
+      </section>
+    </aside>
+  </div>
 </body>
 </html>

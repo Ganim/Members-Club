@@ -1,3 +1,32 @@
-body{
-  background-color: var(--base---gray-200);
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background: var(--Base-Gray-200);
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: var(--Base-Gray-300);
+  border: 1px solid var(--Base-Gray-400);
+  border-radius: 12px;
+}
+
+#search{
+  flex: 1;
+  font-Color: var(--Base-Gray-500);
+  font-size: var(--Body-Text-md);
+  font-family: 'oxygen';
 }
